@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+.text{
+    @apply text-white
+}
+body {
+  @apply  bg-gradient-to-b from-[#43357A] via-[#19132A] to-[#231240];
+  background-size: 100% 1000%;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
