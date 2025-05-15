@@ -1,7 +1,7 @@
 function AboutMe(){
     return (
         <>
-            <h1 className="text-3xl text mt-[5%] mx-[7%]" id="AboutMe"><u>About Me</u></h1>
+            <h1 className="text-3xl text mt-[5%] mx-[9%]" id="AboutMe"><u>About Me</u></h1>
             
                 <p className="text ml-[10%] mr-[10%] text-justify my-[2%] leading-[3rem]">
                     I’m a Computer Science student at Atria Institute of Technology with a strong interest in combining software with real-world hardware. I completed my schooling at Sri Sri Ravishankar Vidya Mandir, where I developed a solid academic foundation.

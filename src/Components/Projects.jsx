@@ -3,7 +3,7 @@ import ProjectsCards from "./ProjectsCards";
 function Projects(){
     return (
         <>
-            <h1 className="text-3xl text mt-[5%] mx-[7%]" id="Projects"><u>Projects</u></h1>
+            <h1 className="text-3xl text mt-[5%] mx-[9%]" id="Projects"><u>Projects</u></h1>
             <ProjectsCards 
             title="1. Melody Mixer"
             Desc="Description: AI-powered music creation tool using 
