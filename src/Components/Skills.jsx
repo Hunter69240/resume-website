@@ -13,8 +13,8 @@ const skills = [
 export default function SkillSliders() {
   return (
     <>
-    <h1 className="text-3xl text mx-20 mt-40" id="Skills"><u>Skills</u></h1>
-    <div className="my-10 flex gap-10 mx-40 mr-70 leading-[2.5rem] sm:p-4">
+    <h1 className="text-3xl text mx-[5%] mt-[5%]" id="Skills"><u>Skills</u></h1>
+    <div className="my-[2%] flex gap-10 ml-[10%] mr-[10%] leading-[2.5rem] sm:p-4">
        <p className='text text-justify'>I have a solid grasp of Python and SQL, which form the backbone of my 
         backend and data-related work. My skills in JavaScript and C have supported my development 
         across both web and low-level programming. I’ve built projects using React, React Native, 
