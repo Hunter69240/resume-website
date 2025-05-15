@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <Header />
-            <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-center gap-8 lg:gap-20 px-4 py-10">
+            <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-center gap-8 lg:gap-20 px-4 py-10 mx-[6%]">
                 <p className="max-w-md text-justify leading-relaxed text-white text-base sm:text-lg">
                     <span className="text-3xl font-semibold">Aadish D Somayaji</span> <br />
                     Aspiring Developer <br />
