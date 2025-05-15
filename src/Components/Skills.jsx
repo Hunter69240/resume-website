@@ -13,7 +13,7 @@ const skills = [
 export default function SkillSliders() {
   return (
     <>
-      <h1 className="text-3xl text mx-[5%] mt-[5%]" id="Skills"><u>Skills</u></h1>
+     <h1 className="text-3xl mx-[7%] mt-16 sm:mt-8 text" id="Skills"><u>Skills</u></h1>
       <div className="my-[2%] flex flex-col md:flex-row gap-10 ml-[10%] mr-[10%] leading-[2.5rem] sm:p-4">
         <p className='text text-justify'>
           I have a solid grasp of Python and SQL, which form the backbone of my 
