@@ -3,7 +3,7 @@ function ProjectsCards({ title, Desc, Tech, Extra }) {
     <>
 <div className="w-[90%] sm:w-[80%] bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 mx-[6%] my-[5%] p-4 sm:p-6 rounded-lg overflow-hidden text-white">
         <h4 className="text-xl  mb-4 break-words">{title}</h4>
-        <div className="flex flex-col space-y-2 break-words w-full">
+        <div className="flex flex-col space-y-2 break-words w-full text-[#D1D5DB]">
           <p>{Desc}</p>
           <p>{Tech}</p>
           <p>{Extra}</p>

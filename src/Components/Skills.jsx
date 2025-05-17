@@ -13,8 +13,8 @@ const skills = [
 export default function SkillSliders() {
   return (
     <>
-     <h1 className="text-3xl mx-[9%] mt-16 sm:mt-8 text" id="Skills"><u>Skills</u></h1>
-      <div className="my-[2%] flex flex-col md:flex-row gap-10 ml-[10%] mr-[10%] leading-[2.5rem] sm:p-4">
+     <h1 className="text-4xl text mt-[5%] mx-[9%] text-[#F3F4F6] font-semibold" id="Skills"><u>Skills</u></h1>
+      <div className="my-[2%] flex flex-col md:flex-row gap-10 ml-[10%] mr-[10%] leading-[2.5rem] sm:p-4 text-[#D1D5DB]">
         <p className='text text-justify'>
           I have a solid grasp of Python and SQL, which form the backbone of my 
           backend and data-related work. My skills in JavaScript and C have supported my development 
