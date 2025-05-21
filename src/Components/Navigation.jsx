@@ -33,7 +33,7 @@ function Navigation() {
   }, []);
 
   return (
-    <div className="hidden sm:flex flex-col fixed top-1/4 right-0 text-xl font-semibold p-4 gap-4 lg:text-2xl">
+    <div className="hidden sm:flex flex-col fixed top-1/4 right-0 text-xl font-semibold p-4 gap-4 lg:text-2xl ">
       {['AboutMe', 'Skills', 'Projects'].map((id) => (
         <a
           key={id}
