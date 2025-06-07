@@ -34,8 +34,16 @@ function Projects(){
             Desc="Description: Desktop game application with user login, featuring 
             classic games like Minesweeper, PvP Tic-Tac-Toe, and AI Tic-Tac-Toe."
             Tech="Technologies: Python, Tkinter, SQLite, OOP"
-            
             />
+
+            <ProjectsCards 
+            title="5. ShopFinder – Nearby Store Locator App"
+            Desc="Description: A mobile application that helps users locate nearby shops using GPS, mark favorites, and open locations in Google Maps. Includes persistent local storage and Firebase-based beta distribution."
+            Tech="Technologies: React Native (Expo), AsyncStorage, Google Maps, Firebase App Distribution"
+            />
+
+
+
         </>
     )
 }
