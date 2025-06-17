@@ -42,6 +42,19 @@ function Projects(){
             Tech="Technologies: React Native (Expo), AsyncStorage, Google Maps, Firebase App Distribution"
             />
 
+            <ProjectsCards 
+            title="6. WeatherApp – Real-time Weather Forecast App"
+            Desc="Description: A React Native app that allows users to search cities, view current weather details like temperature, humidity, wind, and navigate across detailed weather screens using OpenWeatherMap API."
+            Tech="Technologies: React Native (CLI), OpenWeatherMap API, React Navigation, Axios"
+            />  
+
+            <ProjectsCards 
+            title="7. MyPokedex – Pokémon Search & Info Viewer"
+            Desc="Description: A fun and interactive app where users can search for Pokémon by name and view their images, type, weight, and height. Includes autocomplete suggestions and clean UI transitions."
+            Tech="Technologies: React Native (CLI), Axios, PokéAPI, React Navigation"
+            />
+
+
 
 
         </>
