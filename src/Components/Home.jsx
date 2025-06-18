@@ -6,6 +6,7 @@ function Home() {
     return (
         <>
             <div className="w-[90%] max-w-screen-lg mx-auto bg-black text-white clip-polygon-custom p-4 flex mt-4 gap-4">
+
                 <div className="flex flex-col">
                     <img src={Profile} className="w-full h-auto max-h-[300px] object-cover "></img>
                     <p className="text-white text-xs font-bold text-center mt-2 mb-3 sm:text-2xl">Aadish D Somayaji</p>

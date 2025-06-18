@@ -28,11 +28,11 @@ function ProjectsCards({ name, vid, desc, git }) {
             ${showOverlay ? 'opacity-100' : 'opacity-0'}
             sm:opacity-0 sm:group-hover:opacity-100`}
           >
-            <p className="text-sm px-4 text-center">{desc}</p>
+            <p className="text-sm px-4 text-center sm:text-xl">{desc}</p>
           </div>
         </div>
       ) : (
-        <p className="text-sm text-white px-2">{desc}</p> 
+        <p className="text-sm text-white px-2 sm:text-xl">{desc}</p> 
       )}
 
       <div className="flex justify-end">
