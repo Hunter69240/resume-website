@@ -1,58 +1,78 @@
 import ProjectsCards from "./ProjectsCards";
 
 function Projects(){
+    const projects=[
+        {
+            name: "MyPokedex",
+            vid: "public/videos/MyPokedex.mp4", 
+            desc:"MyPokedex is a sleek React Native app that lets users explore Pokémon with detailed info, images, and search functionality. It uses PokéAPI and responsive UI to deliver a fast, engaging experience on mobile.",
+            git:"https://github.com/Hunter69240/MyPokedex"
+        },
+        {
+            name: "ShopFinder",
+            vid: "public/videos/ShopFinder.mp4", 
+            desc:"ShopFinder is a location-based React Native app that helps users quickly discover nearby shops using GPS. With features like category filters, Google Maps integration, and favorite shop management, it offers a smooth and practical experience for everyday needs.",
+            git:"https://github.com/Hunter69240/ShopFinder"
+        },
+        {
+            name: "WeatherApp",
+            vid: "public/videos/WeatherApp.mp4", 
+            desc:"The Todo List app is a clean and minimal task manager built with React Native. It allows users to create, update, and delete tasks with ease. With its intuitive interface and real-time task tracking, it boosts productivity and keeps daily goals in check.",
+            git:"https://github.com/Hunter69240/WeatherApp"
+        },
+        {
+            name: "To-Do List",
+            vid: "public/videos/To-Do List.mp4", 
+            desc:"The Todo List app is a clean and minimal task manager built with React Native. It allows users to create, update, and delete tasks with ease. With its intuitive interface and real-time task tracking, it boosts productivity and keeps daily goals in check.",
+            git:"https://github.com/Hunter69240/todo-list"
+        },
+        {
+            name: "Python Game Suite",
+            vid: "", // No video available
+            desc: "A desktop game application with user authentication, featuring classics like Minesweeper, PvP Tic-Tac-Toe, and AI-based Tic-Tac-Toe. Offers a fun and educational GUI experience while demonstrating core OOP and DBMS concepts.",
+            git: "" // Add GitHub link if available
+        },
+
+        {
+            name: "Smart Dustbin",
+            vid: "", // No video available
+            desc: "A contactless dustbin system with automated lid control using an ultrasonic sensor and servo motors. Designed to promote hygienic waste disposal with minimal physical contact.",
+            git: "" // Add GitHub link if available
+        },
+
+        {
+            name: "Smart Specs for the Visually Impaired",
+            vid: "", // No video available
+            desc: "A wearable assistive device that uses ultrasonic sensors to detect obstacles and gives proximity-based beeping alerts, enhancing navigation safety for visually impaired individuals.",
+            git: "" // Add GitHub link if available
+        },
+
+        {
+            name: "Melody Mixer",
+            vid: "", // No video available
+            desc: "An AI-powered music generation tool that uses RNNs and VAEs to create genre-based melodies in pop, jazz, rock, and classical styles. Presented at IEEE COMPSIF 2025.",
+            git: "" // Add GitHub link if available
+        }
+
+    ]
     return (
         <>
-            <h1 className="text-4xl text mt-[5%] mx-[9%] text-[#F3F4F6] font-semibold" id="Projects"><u>Projects</u></h1>
-            <ProjectsCards 
-            title="1. Melody Mixer"
-            Desc="Description: AI-powered music creation tool using 
-            Recurrent Neural Networks and Variational Autoencoders to 
-            generate genre-based melodies (pop, jazz, rock, classical)."
-            Tech="Technologies: Python, RNN, VAE, MusicML, Machine Learning"
-            Extra="Extras: Presented at IEEE COMPSIF 2025"
-            />
-
-            <ProjectsCards 
-            title="2. Sensor-Based Smart Specs for the Visually Impaired"
-            Desc="Description: Wearable device with ultrasonic sensors that 
-            detects obstacles and provides proximity-based beeping alerts."
-            Tech="Technologies: Arduino Uno, Ultrasonic Sensor, Buzzer, Embedded C"
+        <div className="w-[90%] max-w-screen-lg mx-auto bg-black text-white clip-polygon-custom p-4 pb-40 flex flex-col mt-4 gap-4">
+            <h2>Projects</h2>
+            <div className="mb-[25] sm:grid sm:grid-cols-2 sm:gap-4 ">
+               {projects.map((project, index) => (
+                    <ProjectsCards 
+                        key={index}
+                        name={project.name}
+                        vid={project.vid}
+                        desc={project.desc}
+                        git={project.git}
+                    />
+               ))}
+            </div>
            
-            />
-
-            <ProjectsCards 
-            title="3. Smart Dustbin"
-            Desc="Description: Contactless dustbin with automated lid control 
-            using a distance sensor and servo motors for hygienic waste disposal."
-            Tech="Technologies: Arduino Uno, Ultrasonic Sensor, Servo Motor, Embedded C"
-         
-            />
-
-            <ProjectsCards 
-            title="4. Python Game Suite with GUI and Authentication"
-            Desc="Description: Desktop game application with user login, featuring 
-            classic games like Minesweeper, PvP Tic-Tac-Toe, and AI Tic-Tac-Toe."
-            Tech="Technologies: Python, Tkinter, SQLite, OOP"
-            />
-
-            <ProjectsCards 
-            title="5. ShopFinder – Nearby Store Locator App"
-            Desc="Description: A mobile application that helps users locate nearby shops using GPS, mark favorites, and open locations in Google Maps. Includes persistent local storage and Firebase-based beta distribution."
-            Tech="Technologies: React Native (Expo), AsyncStorage, Google Maps, Firebase App Distribution"
-            />
-
-            <ProjectsCards 
-            title="6. WeatherApp – Real-time Weather Forecast App"
-            Desc="Description: A React Native app that allows users to search cities, view current weather details like temperature, humidity, wind, and navigate across detailed weather screens using OpenWeatherMap API."
-            Tech="Technologies: React Native (CLI), OpenWeatherMap API, React Navigation, Axios"
-            />  
-
-            <ProjectsCards 
-            title="7. MyPokedex – Pokémon Search & Info Viewer"
-            Desc="Description: A fun and interactive app where users can search for Pokémon by name and view their images, type, weight, and height. Includes autocomplete suggestions and clean UI transitions."
-            Tech="Technologies: React Native (CLI), Axios, PokéAPI, React Navigation"
-            />
+        </div>
+            
 
 
 
