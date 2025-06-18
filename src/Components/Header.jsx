@@ -6,7 +6,7 @@ function Header() {
                     <p className="text-[#F3F4F6]">Aadish D Somayaji</p>
                     <p className="text-[#F3F4F6]">
                         🛠️ Now Playing: Python, React Native, Tailwind<br />
-                        🎯 Mission: Build real-world smart tools
+                        🎯 Mission: Build real-world smart tools branch branch
                     </p>
                 </div>
 
