@@ -2,10 +2,10 @@ import { FaInstagram, FaGithub, FaLinkedin, FaReddit } from 'react-icons/fa';
 
 export default function Socials() {
   const socials = [
-    { name: 'Instagram', icon: <FaInstagram />, link: 'https://instagram.com' },
+    { name: 'Instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/mr_hunter69/' },
     { name: 'GitHub', icon: <FaGithub />, link: 'https://github.com/Hunter69240' },
-    { name: 'LinkedIn', icon: <FaLinkedin />, link: 'https://linkedin.com' },
-    { name: 'Reddit', icon: <FaReddit />, link: 'https://reddit.com' },
+    { name: 'LinkedIn', icon: <FaLinkedin />, link: 'www.linkedin.com/in/aadish-d-somayaji-787b952a8' },
+    { name: 'Reddit', icon: <FaReddit />, link: 'https://www.reddit.com/user/MrHunter69420/' },
   ];
 
   return (
