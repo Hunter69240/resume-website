@@ -4,7 +4,7 @@ export default function Socials() {
   const socials = [
     { name: 'Instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/mr_hunter69/' },
     { name: 'GitHub', icon: <FaGithub />, link: 'https://github.com/Hunter69240' },
-    { name: 'LinkedIn', icon: <FaLinkedin />, link: 'www.linkedin.com/in/aadish-d-somayaji-787b952a8' },
+    { name: 'LinkedIn', icon: <FaLinkedin />, link: 'https://www.linkedin.com/in/aadish-d-somayaji-787b952a8/' },
     { name: 'Reddit', icon: <FaReddit />, link: 'https://www.reddit.com/user/MrHunter69420/' },
   ];
 

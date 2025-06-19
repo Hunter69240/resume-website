@@ -59,7 +59,7 @@ function Projects(){
         <>
         <div className="w-[90%] max-w-screen-lg mx-auto bg-black text-white clip-polygon-custom p-4 pb-40 flex flex-col mt-4 gap-4">
             <h2 className="text-2xl font-bold mb-5 sm:text-4xl">Projects</h2>
-            <div className="mb-[25] sm:grid sm:grid-cols-2 sm:gap-4 ">
+            <div className="mb-[25] ml-7 sm:grid sm:grid-cols-2 sm:gap-4 ">
                {projects.map((project, index) => (
                     <ProjectsCards 
                         key={index}

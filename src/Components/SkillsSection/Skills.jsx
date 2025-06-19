@@ -17,6 +17,7 @@ export default function Skills() {
     { logo: FaHtml5, name: 'HTML5' },
     { logo: BiLogoJavascript, name: 'JavaScript' },
     { logo: FaReact, name: 'React' },
+    { logo: FaReact, name: 'React Native' },
     { logo: FaCss3Alt, name: 'CSS3' },
     { logo: BiLogoTailwindCss, name: 'Tailwind CSS' }
   ];
