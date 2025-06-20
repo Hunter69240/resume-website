@@ -17,7 +17,7 @@ function Projects(){
         {
             name: "WeatherApp",
             vid: "videos/WeatherApp.mp4", 
-            desc:"The Todo List app is a clean and minimal task manager built with React Native. It allows users to create, update, and delete tasks with ease. With its intuitive interface and real-time task tracking, it boosts productivity and keeps daily goals in check.",
+            desc:"WeatherApp is a clean React Native application that displays real-time weather information for any location. It fetches data using the OpenWeatherMap API and features a user-friendly interface with search functionality and location-based updates.",
             git:"https://github.com/Hunter69240/WeatherApp"
         },
         {
