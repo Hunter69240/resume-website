@@ -27,6 +27,13 @@ function Projects(){
             git:"https://github.com/Hunter69240/todo-list"
         },
         {
+            name: "FishKnower",
+            vid: "videos/FishKnower.mp4", 
+            desc:"FishKnower is an interactive React Native app that lets users explore and learn about different fish species through a searchable interface. With dynamic habitat-based backgrounds, Appwrite-powered data, and embedded 3D model viewing, it delivers an immersive underwater discovery experience for marine enthusiasts and students alike.",
+            git:"https://github.com/Hunter69240/FishKnower"
+        },
+
+        {
             name: "DFA Visualizer",
             vid: "videos/DFAVisualizerDemo.mkv", 
             desc: "DFA Visualizer is a Python-based simulator that lets users define custom DFAs, validate input strings, and generate animated GIFs showing each transition step. Built using NetworkX, Matplotlib, and PIL, it’s perfect for visually understanding automata behavior.",
