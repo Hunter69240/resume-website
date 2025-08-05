@@ -1,12 +1,21 @@
-# React + Vite
+# Resume Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal resume website built using **React** and **Tailwind CSS** to showcase my skills, experience, and projects.
 
-Currently, two official plugins are available:
+You can visit the live website to see how it looks: [Resume Website Live](https://www.aadishds.me/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Built with React and Tailwind CSS
+- Responsive and clean design
+- Sections for About, Skills, Projects, and Contact
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- Tailwind CSS
+- JavaScript
+
+---
+
+Feel free to clone or fork this repository if you want to use it as a base for your own resume website.
