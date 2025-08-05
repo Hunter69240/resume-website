@@ -32,6 +32,13 @@ function Projects(){
             desc:"FishKnower is an interactive React Native app that lets users explore and learn about different fish species through a searchable interface. With dynamic habitat-based backgrounds, Appwrite-powered data, and embedded 3D model viewing, it delivers an immersive underwater discovery experience for marine enthusiasts and students alike.",
             git:"https://github.com/Hunter69240/FishKnower"
         },
+        {
+            name: "MyNotes",
+            vid: "videos/MyNotes.mp4", 
+            desc: "MyNotes is a full-stack note-taking app built with React Native and Express.js. It allows users to create, edit, and delete notes with a clean, responsive UI. The backend uses MongoDB for storage and exposes RESTful APIs, while the frontend offers seamless integration and real-time updates.",
+            git: "https://github.com/Hunter69240/mynotes"
+        },
+
 
         {
             name: "DFA Visualizer",
