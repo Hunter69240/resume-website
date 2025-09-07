@@ -39,6 +39,13 @@ function Projects(){
             git: "https://github.com/Hunter69240/mynotes"
         },
 
+        {
+            name: "Key Flow",
+            vid: "videos/Key-Flow.mp4", 
+            desc: "Key Flow is a React Native typing speed test app that helps users practice typing, measure their speed (WPM) and accuracy, and track previous tests. It features configurable timers, real-time results, and a responsive, intuitive UI for both Android and iOS.",
+            git: "https://github.com/Hunter69240/Keyflow"
+        },
+
 
         {
             name: "DFA Visualizer",
