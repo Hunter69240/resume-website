@@ -21,6 +21,13 @@ function Projects(){
             git:"https://github.com/Hunter69240/WeatherApp"
         },
         {
+            name: "JsonGlance",
+            vid: "videos/JsonGlance.mkv", 
+            desc: "JsonGlance is a web-based utility that allows users to paste JSON data and instantly visualize its hierarchical structure. Built with React, it offers an intuitive interface for inspecting and navigating complex JSON objects, making it ideal for developers, API users, and learners working with JSON data.",
+            git: "https://github.com/Hunter69240/JsonGlance"
+        },
+        
+        {
             name: "To-Do List",
             vid: "videos/To-Do List.mp4", 
             desc:"The Todo List app is a clean and minimal task manager built with React Native. It allows users to create, update, and delete tasks with ease. With its intuitive interface and real-time task tracking, it boosts productivity and keeps daily goals in check.",
