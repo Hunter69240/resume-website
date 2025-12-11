@@ -3,6 +3,12 @@ import ProjectsCards from "./ProjectsCards";
 function Projects(){
     const projects=[
         {
+            name: "AquaScope",
+            vid: "videos/AquaScope.mkv",
+            desc: "AquaScope is an interactive 3D fish encyclopedia that allows users to discover detailed biological data, habitat info, and immersive 3D models of fish species worldwide. With intelligent search and a clean ocean-themed UI, it provides an engaging way to explore aquatic life.",
+            git: "https://github.com/Hunter69240/Majorpp-Frontend"
+        },
+        {
             name: "MyPokedex",
             vid: "videos/MyPokedex.mp4", 
             desc:"MyPokedex is a sleek React Native app that lets users explore Pokémon with detailed info, images, and search functionality. It uses PokéAPI and responsive UI to deliver a fast, engaging experience on mobile.",
