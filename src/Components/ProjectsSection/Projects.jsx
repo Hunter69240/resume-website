@@ -9,6 +9,12 @@ function Projects(){
             git: "https://github.com/Hunter69240/Majorpp-Frontend"
         },
         {
+            name: "GDHelper",
+            vid: "videos/GDHelper.mp4",
+            desc: "GDHelper is a full-stack speech evaluation web app that records user responses to generated topics, transcribes speech, analyzes delivery and reasoning across multiple layers, and provides structured AI feedback to improve speaking skills.",
+            git: "https://github.com/Hunter69240/GDHelper-Frontend"
+        },
+        {
             name: "MyPokedex",
             vid: "videos/MyPokedex.mp4", 
             desc:"MyPokedex is a sleek React Native app that lets users explore Pokémon with detailed info, images, and search functionality. It uses PokéAPI and responsive UI to deliver a fast, engaging experience on mobile.",
