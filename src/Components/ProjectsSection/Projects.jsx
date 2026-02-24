@@ -12,7 +12,7 @@ function Projects(){
             name: "GDHelper",
             vid: "videos/GDHelper.mp4",
             desc: "GDHelper is a full-stack speech evaluation web app that records user responses to generated topics, transcribes speech, analyzes delivery and reasoning across multiple layers, and provides structured AI feedback to improve speaking skills.",
-            git: "https://github.com/Hunter69240/GDHelper-Frontend"
+            git: "https://github.com/Hunter69240/GDHelper"
         },
         {
             name: "MyPokedex",
