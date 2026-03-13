@@ -8,13 +8,12 @@ function Home() {
             <div className="w-[90%] max-w-screen-lg mx-auto bg-black text-white clip-polygon-custom p-4 flex mt-4 gap-4">
 
                 <div className="flex flex-col">
-                    <img src={Profile} className="w-full h-auto max-h-[300px] object-cover "></img>
+                    <img src={Profile} alt="Profile Picture" className="w-full h-auto max-h-[300px] object-cover "></img>
                     <p className="text-white text-xs font-bold text-center mt-2 mb-3 sm:text-2xl">Aadish D Somayaji</p>
                     <div className="flex justify-between  ml-[10%] mb-2 mr-4 sm:text-2xl gap-2">
-                        <a href='https://www.instagram.com/mr_hunter69/'>  <FaInstagram className='hover:text-blue-600 text-red-400   rounded-xl text-xl sm:text-3xl'/></a>
-                        <a href='https://www.linkedin.com/in/aadish-d-somayaji-787b952a8/'> <FaLinkedin className='hover:text-blue-600 text-blue-500   rounded-xl text-xl sm:text-3xl'/> </a> 
-                        <a href='https://github.com/Hunter69240'>  <FaGithub className='hover:text-blue-600 text-white rounded-xl text-xl sm:text-3xl'/></a>
-                        <a href='https://www.reddit.com/user/MrHunter69420/'>  <FaReddit className='hover:text-blue-600     text-white rounded-xl text-xl sm:text-3xl'/></a>
+                        <a href='https://www.linkedin.com/in/aadish-d-somayaji-787b952a8/' aria-label="Linkedln Profile"> <FaLinkedin className='hover:text-blue-600 text-blue-500   rounded-xl text-xl sm:text-3xl'/> </a> 
+                        <a href='https://github.com/Hunter69240' aria-label="Github Profile">  <FaGithub className='hover:text-blue-600 text-white rounded-xl text-xl sm:text-3xl'/></a>
+                        <a href='https://www.reddit.com/user/MrHunter69420/' aria-label="Reddit Profile">  <FaReddit className='hover:text-blue-600     text-white rounded-xl text-xl sm:text-3xl'/></a>
                     </div>
                 </div>
 

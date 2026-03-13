@@ -72,7 +72,6 @@ function Projects(){
             desc: "DFA Visualizer is a Python-based simulator that lets users define custom DFAs, validate input strings, and generate animated GIFs showing each transition step. Built using NetworkX, Matplotlib, and PIL, it’s perfect for visually understanding automata behavior.",
             git: "https://github.com/Hunter69240/DFAVisualizer"
         },
-
         {
             name: "Python Game Suite",
             vid: "", 

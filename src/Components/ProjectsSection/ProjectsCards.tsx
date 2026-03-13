@@ -7,6 +7,7 @@ type ProjectsCardsProps = {
   desc:string,
   git:string
 }
+
 function ProjectsCards({ name, vid, desc, git }:ProjectsCardsProps) {
   const [showOverlay, setShowOverlay] = useState(false);
 
