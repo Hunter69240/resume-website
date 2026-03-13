@@ -119,11 +119,6 @@ function Projects(){
             </div>
            
         </div>
-            
-
-
-
-
         </>
     )
 }
