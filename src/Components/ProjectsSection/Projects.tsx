@@ -10,27 +10,9 @@ function Projects(){
         },
         {
             name: "GDHelper",
-            vid: "videos/Gdhelper.mp4",
+            vid: "videos/GDHelper.mp4",
             desc: "GDHelper is a Dockerized full-stack AI speech evaluation app that transcribes responses, analyzes fluency and reasoning using embeddings, and generates structured LLM feedback.",
             git: "https://github.com/Hunter69240/GDHelper"
-        },
-        {
-            name: "MyPokedex",
-            vid: "videos/Mypokedex.mp4", 
-            desc:"MyPokedex is a sleek React Native app that lets users explore Pokémon with detailed info, images, and search functionality. It uses PokéAPI and responsive UI to deliver a fast, engaging experience on mobile.",
-            git:"https://github.com/Hunter69240/MyPokedex"
-        },
-        {
-            name: "ShopFinder",
-            vid: "videos/Shopfinder.mp4", 
-            desc:"ShopFinder is a location-based React Native app that helps users quickly discover nearby shops using GPS. With features like category filters, Google Maps integration, and favorite shop management, it offers a smooth and practical experience for everyday needs.",
-            git:"https://github.com/Hunter69240/ShopFinder"
-        },
-        {
-            name: "WeatherApp",
-            vid: "videos/Weatherapp.mp4", 
-            desc:"WeatherApp is a clean React Native application that displays real-time weather information for any location. It fetches data using the OpenWeatherMap API and features a user-friendly interface with search functionality and location-based updates.",
-            git:"https://github.com/Hunter69240/WeatherApp"
         },
         {
             name: "JsonGlance",
@@ -38,6 +20,26 @@ function Projects(){
             desc: "JsonGlance is a web-based utility that allows users to paste JSON data and instantly visualize its hierarchical structure. Built with React, it offers an intuitive interface for inspecting and navigating complex JSON objects, making it ideal for developers, API users, and learners working with JSON data.",
             git: "https://github.com/Hunter69240/JsonGlance"
         },
+        {
+            name: "MyPokedex",
+            vid: "videos/MyPokedex.mp4", 
+            desc:"MyPokedex is a sleek React Native app that lets users explore Pokémon with detailed info, images, and search functionality. It uses PokéAPI and responsive UI to deliver a fast, engaging experience on mobile.",
+            git:"https://github.com/Hunter69240/MyPokedex"
+        },
+        
+        {
+            name: "ShopFinder",
+            vid: "videos/ShopFinder.mp4", 
+            desc:"ShopFinder is a location-based React Native app that helps users quickly discover nearby shops using GPS. With features like category filters, Google Maps integration, and favorite shop management, it offers a smooth and practical experience for everyday needs.",
+            git:"https://github.com/Hunter69240/ShopFinder"
+        },
+        {
+            name: "WeatherApp",
+            vid: "videos/WeatherApp.mp4", 
+            desc:"WeatherApp is a clean React Native application that displays real-time weather information for any location. It fetches data using the OpenWeatherMap API and features a user-friendly interface with search functionality and location-based updates.",
+            git:"https://github.com/Hunter69240/WeatherApp"
+        },
+        
         
         {
             name: "To-Do List",
@@ -47,13 +49,13 @@ function Projects(){
         },
         {
             name: "FishKnower",
-            vid: "videos/Fishknower.mp4", 
+            vid: "videos/FishKnower.mp4", 
             desc:"FishKnower is an interactive React Native app that lets users explore and learn about different fish species through a searchable interface. With dynamic habitat-based backgrounds, Appwrite-powered data, and embedded 3D model viewing, it delivers an immersive underwater discovery experience for marine enthusiasts and students alike.",
             git:"https://github.com/Hunter69240/FishKnower"
         },
         {
             name: "MyNotes",
-            vid: "videos/Mynotes.mp4", 
+            vid: "videos/MyNotes.mp4", 
             desc: "MyNotes is a full-stack note-taking app built with React Native and Express.js. It allows users to create, edit, and delete notes with a clean, responsive UI. The backend uses MongoDB for storage and exposes RESTful APIs, while the frontend offers seamless integration and real-time updates.",
             git: "https://github.com/Hunter69240/mynotes"
         },
