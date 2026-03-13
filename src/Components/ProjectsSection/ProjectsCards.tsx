@@ -1,7 +1,13 @@
 import { useState } from 'react';
 import { FaGithub } from 'react-icons/fa';
 
-function ProjectsCards({ name, vid, desc, git }) {
+type ProjectsCardsProps = {
+  name:string,
+  vid:string,
+  desc:string,
+  git:string
+}
+function ProjectsCards({ name, vid, desc, git }:ProjectsCardsProps) {
   const [showOverlay, setShowOverlay] = useState(false);
 
   const handleToggleOverlay = () => {

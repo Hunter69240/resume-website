@@ -1,4 +1,11 @@
-export default function SkillCard({ logo, name }) {
+import type { IconType } from "react-icons";
+
+type SkillCardProps = {
+  logo: IconType,
+  name: string
+}
+
+export default function SkillCard({ logo, name }:SkillCardProps) {
   const Icon = logo;
   return (
     <div className='flex flex-col items-center flex-shrink-0 w-28 hover:scale-105 transition-transform duration-300'>
