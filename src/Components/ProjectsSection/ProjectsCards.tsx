@@ -12,7 +12,7 @@ function ProjectsCards({ name, vid, desc, git }:ProjectsCardsProps) {
   const [showOverlay, setShowOverlay] = useState(false);
 
   const handleToggleOverlay = () => {
-    setShowOverlay(!showOverlay);
+    setShowOverlay(prev=>!prev);
   };
 
   return (
@@ -20,13 +20,14 @@ function ProjectsCards({ name, vid, desc, git }:ProjectsCardsProps) {
       <h2 className="text-xl font-bold text-white mb-2">{name}</h2>
 
       {vid ? (
-        <div className="relative" onClick={handleToggleOverlay}>
+        <div className="relative cursor-pointer" onClick={handleToggleOverlay}>
           <video
             src={vid}
             autoPlay
             muted
             loop
             playsInline
+            preload="none"
             className="w-full h-auto max-h-[300px] object-contain transition-transform duration-300 group-hover:scale-105"
           />
 
@@ -44,7 +45,7 @@ function ProjectsCards({ name, vid, desc, git }:ProjectsCardsProps) {
 
       <div className="flex justify-end">
         {git && (
-          <a href={git} target="_blank" rel="noopener noreferrer">
+          <a href={git} target="_blank" rel="noopener noreferrer" aria-label={`${name} GitHub Repository`}>
             <FaGithub className="hover:text-blue-600 text-white border border-white rounded-xl text-2xl p-1" />
           </a>
         )}
