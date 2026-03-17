@@ -3,6 +3,12 @@ import ProjectsCards from "./ProjectsCards";
 function Projects(){
     const projects=[
         {
+            name: "Blog Platform",
+            vid: "videos/Blog.mp4",
+            desc: "A full-stack blog platform with a public reader experience and a password-protected admin dashboard. Built with React, Node.js, PostgreSQL, and Docker — deployed on AWS EC2 with HTTPS.",
+            git: "https://github.com/Hunter69240/Blog"
+        },
+        {
             name: "AquaScope",
             vid: "videos/Aquascope.mp4",
             desc: "AquaScope is an interactive 3D fish encyclopedia that allows users to discover detailed biological data, habitat info, and immersive 3D models of fish species worldwide. With intelligent search and a clean ocean-themed UI, it provides an engaging way to explore aquatic life.",
