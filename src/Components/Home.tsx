@@ -1,5 +1,5 @@
 import Profile from "../Images/Profile.jpg";
-import { FaInstagram, FaLinkedin, FaGithub, FaReddit} from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaGithub, FaReddit,FaBlog} from 'react-icons/fa';
 
 
 function Home() {
@@ -14,6 +14,7 @@ function Home() {
                         <a href='https://www.linkedin.com/in/aadish-d-somayaji-787b952a8/' aria-label="Linkedln Profile"> <FaLinkedin className='hover:text-blue-600 text-blue-500   rounded-xl text-xl sm:text-3xl'/> </a> 
                         <a href='https://github.com/Hunter69240' aria-label="Github Profile">  <FaGithub className='hover:text-blue-600 text-white rounded-xl text-xl sm:text-3xl'/></a>
                         <a href='https://www.reddit.com/user/MrHunter69420/' aria-label="Reddit Profile">  <FaReddit className='hover:text-blue-600     text-white rounded-xl text-xl sm:text-3xl'/></a>
+                        <a href='https://blog.aadishds.me/' aria-label="Reddit Profile">  <FaBlog className='hover:text-blue-600     text-white rounded-xl text-xl sm:text-3xl'/></a>
                     </div>
                 </div>
 
