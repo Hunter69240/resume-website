@@ -39,8 +39,8 @@ export default function Skills() {
   ];
 
   return (
-    <div className="w-[90%] max-w-screen-lg mx-auto bg-black text-white clip-polygon-custom p-4 pb-40 flex flex-col mt-4 gap-4 overflow-visible">
-      <h2 className="text-2xl font-bold mb-4 sm:text-4xl">Skills</h2>
+    <div className="w-[90%] max-w-screen-lg mx-auto bg-black text-white border border-white rounded-md px-4 py-5 sm:px-6 sm:py-6 flex flex-col mt-4 gap-4 overflow-visible">
+      <h2 className="text-2xl font-bold mb-3 sm:mb-4 sm:text-4xl">Skills</h2>
 
       <SkillSection title="Programming Languages" skills={programmingLanguages} />
       <SkillSection title="Frontend Development" skills={frontEnd} />

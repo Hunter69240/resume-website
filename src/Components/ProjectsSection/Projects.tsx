@@ -111,9 +111,9 @@ function Projects(){
     ]
     return (
         <>
-        <div className="w-[90%] max-w-screen-lg mx-auto bg-black text-white clip-polygon-custom p-4 pb-40 flex flex-col mt-4 gap-4">
-            <h2 className="text-2xl font-bold mb-5 sm:text-4xl">Projects</h2>
-            <div className="mb-[25] ml-7 sm:grid sm:grid-cols-2 sm:gap-4 ">
+        <div className="w-[90%] max-w-screen-lg mx-auto bg-black text-white border border-white rounded-md px-4 py-5 sm:px-6 sm:py-6 flex flex-col mt-4 gap-4">
+            <h2 className="text-2xl font-bold mb-3 sm:mb-4 sm:text-4xl">Projects</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                {projects.map((project, index) => (
                     <ProjectsCards 
                         key={index}

@@ -16,7 +16,7 @@ function ProjectsCards({ name, vid, desc, git }:ProjectsCardsProps) {
   };
 
   return (
-    <div className="w-[90%] border border-white bg-black relative group overflow-hidden rounded-md p-2 flex flex-col gap-2 mb-10">
+    <div className="w-full border border-white bg-black relative group overflow-hidden rounded-md p-2 flex flex-col gap-2">
       <h2 className="text-xl font-bold text-white mb-2">{name}</h2>
 
       {vid ? (

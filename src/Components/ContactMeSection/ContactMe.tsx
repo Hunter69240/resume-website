@@ -5,8 +5,8 @@ import Socials from './Socials';
 
 export default function ContactMe() {
   return (
-    <div className="w-[90%] max-w-screen-lg mx-auto bg-black text-white clip-polygon-custom p-4 pb-40 flex flex-col mt-4 gap-4 overflow-visible">
-      <div className="flex justify-around">
+    <div className="w-[90%] max-w-screen-lg mx-auto bg-black text-white border border-white rounded-md px-4 py-5 sm:px-6 sm:py-6 flex flex-col mt-4 gap-6 overflow-visible">
+      <div className="flex flex-col sm:flex-row sm:justify-between gap-6">
         <div>
             <p className='tracking-wide font-semibold sm:text-2xl mb-5'>
               Lets Connect! 
