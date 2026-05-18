@@ -27,6 +27,13 @@ function Projects(){
             git: "https://github.com/Hunter69240/JsonGlance"
         },
         {
+            name: "Solar Power Forecast",
+            vid: "videos/Solar_Forecast.mp4",
+            desc: "An end-to-end solar power forecasting system that predicts hour-by-hour AC generation for up to 7 days ahead. Built with TensorFlow LSTM, FastAPI, and Streamlit — automated via GitHub Actions with hourly predictions committed to the repo and served through a live interactive dashboard.",
+            git: "https://github.com/Hunter69240/Solar_Forecast"
+        },
+
+        {
             name: "MyPokedex",
             vid: "videos/MyPokedex.mp4", 
             desc:"MyPokedex is a sleek React Native app that lets users explore Pokémon with detailed info, images, and search functionality. It uses PokéAPI and responsive UI to deliver a fast, engaging experience on mobile.",
