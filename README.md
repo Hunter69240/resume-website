@@ -2,7 +2,7 @@
 
 This is a personal resume website built using **React** and **Tailwind CSS** to showcase my skills, experience, and projects.
 
-You can visit the live website to see how it looks: [Resume Website Live](https://www.aadishds.me/)
+You can visit the live website: [Resume Website Live](https://aadishds.live)
 
 ## Features
 
