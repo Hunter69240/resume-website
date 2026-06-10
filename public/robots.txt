@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aadishds.live/sitemap.xml
