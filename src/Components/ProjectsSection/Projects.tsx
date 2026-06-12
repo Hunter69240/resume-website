@@ -34,6 +34,13 @@ function Projects(){
         },
 
         {
+            name: "AudioScope",
+            vid: "videos/AudioScope.mp4",
+            desc: "AudioScope is a full-stack audio processing studio built with React and Flask. Users can upload or record audio directly in the browser, then apply Butterworth IIR filters, Hann/Blackman window filters, noise injection, and AM/FM modulation — with interactive Plotly waveform visualisations and instant in-browser playback.",
+            git: ""
+        },
+
+        {
             name: "MyPokedex",
             vid: "videos/MyPokedex.mp4", 
             desc:"MyPokedex is a sleek React Native app that lets users explore Pokémon with detailed info, images, and search functionality. It uses PokéAPI and responsive UI to deliver a fast, engaging experience on mobile.",
