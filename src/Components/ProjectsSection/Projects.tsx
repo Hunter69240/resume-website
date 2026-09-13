@@ -3,6 +3,12 @@ import ProjectsCards from "./ProjectsCards";
 function Projects(){
     const projects=[
         {
+            name: "Claude Monitor",
+            vid: "videos/claude-monitor.mp4",
+            desc: "A self-hosted pipeline that ingests Claude status emails, transforms them with pandas, and loads them into PostgreSQL for visualization in Metabase. Built with Python, SQLAlchemy, and Docker.",
+            git: "https://github.com/Hunter69240/claude-monitor"
+        },
+        {
             name: "Blog Platform",
             vid: "videos/Blog.mp4",
             desc: "A full-stack blog platform with a public reader experience and a password-protected admin dashboard. Built with React, Node.js, PostgreSQL, and Docker — deployed on AWS EC2 with HTTPS.",
